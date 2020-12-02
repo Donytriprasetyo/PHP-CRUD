@@ -1,0 +1,56 @@
+.BT{
+	background-color: #b1cdcd;
+	padding: 30px;
+}
+h1{
+	text-align: center;
+	margin: 8px;
+}
+table{
+	border-color: blue;
+}
+tr{
+	border-bottom: 1px solid blue;
+}
+input{
+	padding: 2px 5px;
+	border: 1px solid green;
+}
+select{
+	padding: 2px 5px;
+	border: 1px solid green;
+	width: 190px;
+}
+input:focus, select:focus{
+	outline-color: blue;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+button{
+	border-color: green;
+	background-color: white;
+ 	color: black;
+  	border: 2px solid green;
+  	padding: 5px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	float: right;
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}

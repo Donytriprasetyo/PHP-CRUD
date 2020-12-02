@@ -1,0 +1,60 @@
+.BT{
+	background-color: #b1cdcd;
+	padding: 30px;
+}
+h1{
+	text-align: center;
+	margin: 8px;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+table{
+	border-color: blue;
+}
+tr:nth-child(even) {
+	background-color: #b1cdcd;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+input{
+	padding: 5px 10px;
+	border: 1px solid green;
+}
+input:focus{
+	outline-color: blue;
+}
+button{
+	border-color: green;
+	background-color: white;
+ 	color: black;
+  	border: 2px solid green;
+  	padding: 5px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+li{
+	list-style: none;
+	padding: 3px;
+}
+form{
+	float: right;
+}
