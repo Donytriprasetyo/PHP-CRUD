@@ -29,10 +29,9 @@ if (isset($_POST["cari"]) ) {
 	<br>
 	<div class="container-fluid">
 	<div class="row">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-5"><a href="tambah.php">Tambah Data</a></div>
-	<div class="col-sm-5">
-	<div class="col-sm-1"></div>
+	<div class="col-sm-2"></div>
+	<div class="col-sm-4"><a href="tambah.php">Tambah Data</a></div>
+	<div class="col-sm-4">
 	
 
 	<form action="" method="post">
@@ -42,12 +41,13 @@ if (isset($_POST["cari"]) ) {
 	</div>
 	</div>
 	</div>
+	</div>
 	<br>
 	
 	<div class="container-fluid">
 	<div class="row">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-10">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
 	<table border="1" cellpadding="10" cellspacing="0">
 		<tr>
 			<th>No.</th>
@@ -85,7 +85,7 @@ if (isset($_POST["cari"]) ) {
 	</table>
 	<br>
 	</div>
-	<div class="col-sm-1"></div>
+	<div class="col-sm-2"></div>
 	</div>
 	</div>
 	<div class="BT" style="margin-bottom: 0px"></div>
